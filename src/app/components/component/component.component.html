@@ -1,0 +1,37 @@
+
+
+<!-- <button (click)="increment()" mat-button>Increment</button>
+
+<button (click)="decrement()" mat-button>Decrement</button>
+
+<div>Current Count: {{ (count$ | async)?.counter }}</div>
+
+<button (click)="reset()" mat-button>Reset Counter</button> -->
+<div class="container">
+    <div id="result">{{this.result}}</div>
+    <div class="calculate">
+        <div class="number">
+            <input type="button" id="btn" (click)="zero()" value="0" >
+            <input type="button" id="btn" (click)="one()" value="1" >
+            <input type="button" id="btn" (click)="two()" value="2" >
+            <input type="button" id="btn" (click)="there()" value="3" >
+            <input type="button" id="btn" (click)="four()" value="4" >
+            <input type="button" id="btn" (click)="five()" value="5" >
+            <input type="button" id="btn" (click)="six()" value="6" >
+            <input type="button" id="btn" (click)="seven()" value="7" >
+            <input type="button" id="btn" (click)="eight()" value="8" >
+            <input type="button" id="btn" (click)="nine()" value="9" >
+            <input type="button" id="btn" (click)="dot()" value="." >
+        </div>
+
+        <div class="operation">
+            <input type="button" id="btn" (click)="undo()" value="DEL" >
+            <input type="button" id="btn" (click)="clean()" value="AC" >
+            <input type="button" id="btn" (click)="multiply()" value="*" >
+            <input type="button" id="btn" (click)="division ()" value="/" >
+            <input type="button" id="btn" (click)="plus()" value="+" >
+            <input type="button" id="btn" (click)="minus()" value="-" >
+            <input type="button" id="btn" (click)="equal()" value="=" >
+        </div>
+    </div>
+</div>
